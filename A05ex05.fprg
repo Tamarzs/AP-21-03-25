@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ALUNO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-21 07:40:40 "/>
+        <attribute name="created" value="QUxVTk87TEFCSFBDMjg7MjAyNS0wMy0yMTsiMDc6MzY6MDYgIjsyMTA3"/>
+        <attribute name="edited" value="QUxVTk87TEFCSFBDMjg7MjAyNS0wMy0yMTsiMDc6NDA6NDAgIjsxOzIyMDg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;&quot; &amp;2+2/2" newline="True"/>
+            <output expression="&quot;&quot; &amp;10/2+2" newline="True"/>
+            <output expression="&quot;&quot; &amp;10%5*1000" newline="True"/>
+            <output expression="&quot;&quot; &amp;1000*10%5" newline="True"/>
+            <output expression="&quot;&quot; &amp;100-99/98+1" newline="True"/>
+            <output expression="&quot;&quot; &amp;10+10-10*10/10" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ALUNO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-21 07:58:28 "/>
+        <attribute name="created" value="QUxVTk87TEFCSFBDMjg7MjAyNS0wMy0yMTsiMDc6NTM6MTkgIjsyMTEw"/>
+        <attribute name="edited" value="QUxVTk87TEFCSFBDMjg7MjAyNS0wMy0yMTsiMDc6NTg6MjggIjsxOzIyMjM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Valor m&#225;ximo de uma vari&#225;vel de 16 bits: &quot; &amp;2^16" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

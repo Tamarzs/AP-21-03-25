@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ALUNO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-21 07:36:04 "/>
+        <attribute name="created" value="QUxVTk87TEFCSFBDMjg7MjAyNS0wMy0yMTsiMDc6MzI6NDQgIjsyMTA1"/>
+        <attribute name="edited" value="QUxVTk87TEFCSFBDMjg7MjAyNS0wMy0yMTsiMDc6MzY6MDQgIjsxOzIyMTM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Real" array="False" size=""/>
+            <declare name="y" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o primeiro n&#250;mero: &quot;" newline="True"/>
+            <input variable="x"/>
+            <output expression="&quot;Digite o segundo n&#250;mero: &quot;" newline="True"/>
+            <input variable="y"/>
+            <declare name="div" type="Real" array="False" size=""/>
+            <assign variable="div" expression="x / y"/>
+            <declare name="modd" type="Real" array="False" size=""/>
+            <assign variable="modd" expression="x % y"/>
+            <output expression="&quot;DIV: &quot; &amp;div" newline="True"/>
+            <output expression="&quot;MOD: &quot; &amp;modd" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ALUNO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-21 07:53:17 "/>
+        <attribute name="created" value="QUxVTk87TEFCSFBDMjg7MjAyNS0wMy0yMTsiMDc6NDQ6NDQgIjsyMTA4"/>
+        <attribute name="edited" value="QUxVTk87TEFCSFBDMjg7MjAyNS0wMy0yMTsiMDc6NTM6MTcgIjsxOzIyMTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="horas" type="Integer" array="False" size=""/>
+            <assign variable="horas" expression="8 * 24"/>
+            <output expression="&quot;Ele trabalha: &quot; &amp;horas" newline="True"/>
+            <declare name="sm" type="Integer" array="False" size=""/>
+            <assign variable="sm" expression="1412"/>
+            <declare name="msm" type="Integer" array="False" size=""/>
+            <assign variable="msm" expression="sm / 2"/>
+            <declare name="total" type="Integer" array="False" size=""/>
+            <assign variable="total" expression="sm + msm"/>
+            <output expression="&quot;Ele ganha: &quot; &amp;total" newline="True"/>
+            <declare name="valorHora" type="Integer" array="False" size=""/>
+            <assign variable="valorHora" expression="total / horas"/>
+            <output expression="&quot;O trabalhador recebe por hora: &quot; &amp;valorHora" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
